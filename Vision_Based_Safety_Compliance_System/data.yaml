@@ -1,0 +1,13 @@
+path: /content/drive/MyDrive/Vision Based Safety Compliance System
+train: ppe.v3i.yolov8/train/images
+val: ppe.v3i.yolov8/valid/images
+test: ppe.v3i.yolov8/test/images
+
+nc: 12
+names: ['bare_arm', 'boot', 'glasses', 'glove', 'hard_hat', 'mask', 'no_glove', 'no_hard_hat', 'no_mask', 'no_vest', 'person', 'vest']
+roboflow:
+  workspace: nexplore-r2tbg
+  project: ppe-bhtl9
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nexplore-r2tbg/ppe-bhtl9/dataset/3
